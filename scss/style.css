@@ -132,6 +132,12 @@ p {
   padding: 5px;
 }
 
+.button-up {
+  position: fixed;
+  left: 90%;
+  top: 90%;
+}
+
 header {
   height: 120px;
   background-color: black;
