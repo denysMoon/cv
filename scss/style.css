@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.bigred {
+  font-size: 20px;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Conv_Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.eot");
+  src: local("☺"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Conv_Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.eot");
+  src: local("☺"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: "Conv_Roboto-Regular";
+  font-size: 18px;
+  line-height: 27px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: "Conv_Roboto-Bold";
+  font-size: 24px;
+  text-align: start;
+  padding: 10px;
+}
+
+p {
+  text-align: start;
+  padding: 5px;
+}
+
+header {
+  height: 120px;
+  background-color: black;
+}
+
+.header__container {
+  width: 1100px;
+  height: 100px;
+  background: white;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 15px solid black;
+}
+
+.toggle-button {
+  display: none;
+  background: none;
+}
+
+@media screen and (max-width: 1199px) {
+  .header__container {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header__nav-box {
+    display: none;
+  }
+
+  .header__container {
+    width: 600px;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+}
+.header__logo {
+  margin-left: 40px;
+}
+
+.logo {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__nav-box {
+  width: 800px;
+}
+.header__nav-box a {
+  margin-left: 30px;
+  letter-spacing: 5px;
+}
+
+.portfolio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.stack__box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .stack__box {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+.card-title {
+  text-align: center;
+}
+
+.contact {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.contact a {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

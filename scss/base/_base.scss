@@ -1,0 +1,33 @@
+html{
+}
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Conv_Roboto-Regular';
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+h2{
+    font-family: 'Conv_Roboto-Bold';
+    font-size: 24px;
+    text-align: start;
+    padding: 10px;
+}
+p{
+    text-align: start;
+    padding: 5px;
+}
+
